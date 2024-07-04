@@ -1,0 +1,114 @@
+/* Styles communs pour les formulaires */
+.sign-in .register-form,
+.signup .register-form {
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 40px;
+    background-color: #fff;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* Styles spécifiques pour les formulaires de connexion et d'inscription */
+.sign-in .form-title,
+.signup .form-title {
+    color: #333;
+}
+
+/* Styles communs pour les champs de formulaire */
+.form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+/* Styles communs pour les icônes */
+.zmdi {
+    position: absolute;
+    color: #333;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Styles communs pour les boutons */
+.form-submit {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.form-submit:hover {
+    background-color: #555;
+}
+
+/* Styles spécifiques pour les liens */
+.signup-image-link,
+.signup-image-link {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.signup-image-link:hover,
+.signup-image-link:hover {
+    color: #555;
+}
+
+
+/* Styles spécifiques pour les étiquettes */
+.form-group label {
+    display: inline-block;
+    margin-bottom: 5px; /* Ajouter un espacement entre l'étiquette et le champ */
+}
+
+/* Styles spécifiques pour les champs de formulaire */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: calc(100% - 40px); /* Réduire la largeur des champs pour compenser l'espace pris par l'icône */
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styles communs pour les icônes */
+.zmdi {
+    position: absolute;
+    color: #333;
+    left: 5px; /* Ajuster la position de l'icône */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Styles pour les liens */
+.signup-image-link,
+.signup-image-link {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.signup-image-link:hover,
+.signup-image-link:hover {
+    color: #555;
+}
+
+
+
+
+
+
+
+
+
+
